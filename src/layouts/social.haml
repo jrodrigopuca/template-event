@@ -1,0 +1,9 @@
+//Social
+-social ={"facebook":"userf", "twitter":"usert", "github":"userg"}
+
+%section.text-center
+    %ul.list-inline
+        -social.each do |red, user|
+            %li.list-inline-item
+                %a{href:"https://"+"#{red}"+".com/"+"#{user}"}
+                    %i.fa.fa-4x{class:"fa-"+"#{red}"}

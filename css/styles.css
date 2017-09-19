@@ -1,0 +1,59 @@
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
+html, body {
+  min-height: 100%; }
+
+.full {
+  min-width: 100%;
+  min-height: 100vh; }
+
+.full-height {
+  height: 100%;
+  min-height: 100vh; }
+
+.full-width {
+  width: 100%;
+  min-width: 100%; }
+
+.row {
+  margin: 0px; }
+
+.up {
+  z-index: 1000; }
+
+.absolute {
+  position: absolute; }
+
+.relative {
+  position: relative; }
+
+.jumbotron-fluid {
+  padding: 9rem 0; }
+
+main {
+  min-height: 100vh; }
+
+section {
+  border-bottom: 1px solid;
+  padding: 2em; }
+
+footer {
+  padding: 1em; }
+
+.text-center {
+  text-align: center; }
+
+.navbar {
+  transition: all 0.1s; }
+  .navbar .nav-item {
+    opacity: 0.8;
+    border-bottom: 3px solid;
+    margin: 1px; }
+    .navbar .nav-item:focus, .navbar .nav-item:hover {
+      border-bottom: 3px solid;
+      transition: all 0.1s;
+      opacity: 1; }
+
+/*# sourceMappingURL=styles.css.map */

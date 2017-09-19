@@ -1,0 +1,17 @@
+-@brand="brand"
+-# Basic nav items/sections
+-menu ={"Link1":"url/link1", "Link2":"url/link2", "Link3":"url/link3", "Linkn":"url/link4"}
+
+.navbar-fixed.blue
+    %nav.nav-wrapper.blue
+        %a.brand-logo{href:"#"}= @brand
+        %a.button-collapse{"data-activates":"mobile-nav",href:"#"}
+            %i.material-icons menu
+        %ul.right.hide-on-med-and-down 
+            -menu.each do |key,value|
+                %li
+                    %a{href:"#{value}"}= key
+        %ul#mobile-nav.side-nav
+            -menu.each do |key,value|
+                %li.waves-effect
+                    %a{href:"#{value}"}= key        
